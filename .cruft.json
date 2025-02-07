@@ -9,7 +9,7 @@
       "project_description": "This is the project description.",
       "__repo_name": "Model-Organism-Gene-Transform",
       "__project_slug": "model_organism_gene_transform",
-      "__project_url": "https://github.com/monarch-initiative/model-organism-gene-transform",
+      "__project_url": "https://github.com/monarch-initiative/monarchkg-model-organism-gene-transform",
       "ingest_source": "n/a",
       "ingest_type": "transform",
       "__ingest_name": "n/a_transform",

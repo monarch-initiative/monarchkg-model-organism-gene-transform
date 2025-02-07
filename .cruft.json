@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/monarch-initiative/cookiecutter-monarch-ingest.git",
+  "commit": "616e724e609dacfbce929331ee29312e1224b324",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "github_org_name": "monarch-initiative",
+      "project_name": "Model Organism Gene Transform",
+      "project_description": "This is the project description.",
+      "__repo_name": "Model-Organism-Gene-Transform",
+      "__project_slug": "model_organism_gene_transform",
+      "__project_url": "https://github.com/monarch-initiative/model-organism-gene-transform",
+      "ingest_source": "n/a",
+      "ingest_type": "transform",
+      "__ingest_name": "n/a_transform",
+      "min_python_version": "3.10",
+      "full_name": "Daniel Korn",
+      "email": "dkorn@cs.unc.edu",
+      "__author": "Daniel Korn <dkorn@cs.unc.edu>",
+      "license": "BSD-3",
+      "_template": "https://github.com/monarch-initiative/cookiecutter-monarch-ingest.git",
+      "_commit": "616e724e609dacfbce929331ee29312e1224b324"
+    }
+  },
+  "directory": null
+}

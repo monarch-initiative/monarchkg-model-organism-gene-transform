@@ -3,7 +3,7 @@ import json
 from biolink_model.datamodel.pydanticmodel_v2 import Gene, OrganismTaxon, Association  # Replace * with any necessary data classes from the Biolink Model
 from koza.cli_utils import get_koza_app
 
-koza_app = get_koza_app("mo_gene_transform")
+koza_app = get_koza_app("model_organism_gene_transform")
 
 gene_rows = {}
 taxon_rows = {}

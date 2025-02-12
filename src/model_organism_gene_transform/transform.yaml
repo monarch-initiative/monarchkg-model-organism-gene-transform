@@ -1,7 +1,7 @@
 # Config file for transforming data from a source
 # See additional/optional config parameters at https://koza.monarchinitiative.org/Ingests/source_config/
 
-name: "mo_gene_transform"
+name: "model_organism_gene_transform"
 metadata: "./src/model_organism_gene_transform/metadata.yaml"
 format: "jsonl" # Format of the data files (csv or json)
 files:

@@ -2,8 +2,8 @@ from pathlib import Path
 
 import duckdb
 
-nodes_file = "output/n/a_transform_nodes.tsv"
-edges_file = "output/n/a_transform_edges.tsv"
+nodes_file = "output/model_organism_gene_transform_nodes.tsv"
+edges_file = "output/model_organism_gene_transform_edges.tsv"
 
 
 # Nodes
@@ -14,7 +14,7 @@ if Path(nodes_file).exists():
     GROUP BY all
     ORDER BY all
     """
-    duckdb.sql(f"copy ({query}) to 'output/n/a_transform_nodes_report.tsv' (header, delimiter '\t')")
+    duckdb.sql(f"copy ({query}) to 'output/model_organism_gene_transform_nodes_report.tsv' (header, delimiter '\t')")
 
 # Edges
 if Path(edges_file).exists():
@@ -25,4 +25,4 @@ if Path(edges_file).exists():
     GROUP BY all
     ORDER BY all
     """
-    duckdb.sql(f"copy ({query}) to 'output/n/a_transform_edges_report.tsv' (header, delimiter '\t')")
+    duckdb.sql(f"copy ({query}) to 'output/model_organism_gene_transform_edges_report.tsv' (header, delimiter '\t')")
